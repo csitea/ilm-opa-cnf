@@ -1,0 +1,48 @@
+[
+    {
+        "name": "name-01-test",
+        "idx": 1,
+        "description": "name-01- desc test",
+        "var_name": "user_name_01",
+        "var_value": "user-password-02",
+        "sync_k8s": false,
+        "github_repos": [
+            "se-dbs",
+            "spe-prp-deployer"
+        ]
+    },
+    {
+        "name": "name-02-test",
+        "idx": 2,
+        "description": "name-02- desc test",
+        "var_name": "user_name_02",
+        "var_value": "user-password-02",
+        "sync_k8s": false,
+        "github_repos": [
+            "se-dbs",
+            "spe-prp-deployer"
+        ]
+    },
+    {
+        "name": "name-03-test",
+        "idx": 3,
+        "description": "The user name and password for the xyz",
+        "var_name": "user_name_03",
+        "var_value": "user-password-03",
+        "sync_k8s": false,
+        "github_repos": []
+    },
+    {
+        "name": "name-04-test",
+        "idx": 2,
+        "description": "name-04- desc test",
+        "var_name": "user_name_02",
+        "var_value": "user-password-04",
+        "sync_k8s": false,
+        "github_repos": [
+            "se-dbs",
+            "spe-prp-deployer",
+            "spe-prp-infra"
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "ip": "101.130",
+        "public_key": "tXT1RnqVQdTYmvpdJbLtl1kFdVtl6354mbSzI/710DQ=",
+        "description": "Person 1 (username@domain.com)"
+    },
+    {
+        "ip": "101.131",
+        "public_key": "tXT1RnqVQdTYmvpdJbLtl1kFdVtl6354mbSzI/7b0DQ=",
+        "description": "Renato Guimaraes (renato.guimaraes@ilmatarbrain.com)"
+    },
+    {
+        "ip": "101.132",
+        "public_key": "W1fQXOG0DKEaLwZAX67lZiap8ucf17id5C87naHuMzI=",
+        "description": "Yordan Georgiev (yordan.georgiev@ilmatarbrain.com)"
+    }
+]

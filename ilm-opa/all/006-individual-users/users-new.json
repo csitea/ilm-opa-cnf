@@ -1,0 +1,368 @@
+[
+    {
+        "groups": [],
+        "username": "yordan.georgiev@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "sebastian.nyberg@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_tst_auditors",
+            "str.mpp_stg_auditors"
+        ],
+        "username": "m.piller@tec5.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_tst_auditors",
+            "str.mpp_stg_auditors"
+        ],
+        "username": "krzysztof.gorecki@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "arttu.oksanen@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_developers",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "chi.nguyen@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "elias.kunnas@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_tst_auditors",
+            "str.mpp_stg_auditors"
+        ],
+        "username": "emil.sagfors@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "jari.havukainen@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_be_developers",
+            "str.mpp_tst_be_developers",
+            "str.mpp_stg_be_developers"
+        ],
+        "username": "marko.laakso@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "mathias.hannus@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_be_developers",
+            "str.mpp_dev_data_scientists",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_be_developers",
+            "str.mpp_tst_data_scientists",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_be_developers",
+            "str.mpp_stg_data_scientists",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "patrick.jansson@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_be_developers",
+            "str.mpp_dev_data_scientists",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_be_developers",
+            "str.mpp_tst_data_scientists",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_be_developers",
+            "str.mpp_stg_data_scientists",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "perttu.salo@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "teemu.kupari@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_developers",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "tomi.kaistila@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "valtteri.lehtinen@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_dev_be_developers",
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_auditors",
+            "str.mpp_tst_be_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_stg_auditors",
+            "str.mpp_stg_be_developers",
+            "str.mpp_stg_developers"
+        ],
+        "username": "anand.dharangaonker@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_dev_data_scientists",
+            "str.mpp_tst_auditors",
+            "str.mpp_tst_data_scientists",
+            "str.mpp_stg_auditors",
+            "str.mpp_stg_data_scientists"
+        ],
+        "username": "andreas.stahl@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_dev_be_developers",
+            "str.mpp_dev_data_scientists",
+            "str.mpp_dev_developers",
+            "str.mpp_tst_auditors",
+            "str.mpp_tst_be_developers",
+            "str.mpp_tst_data_scientists",
+            "str.mpp_tst_developers",
+            "str.mpp_stg_auditors",
+            "str.mpp_stg_developers"
+        ],
+        "username": "etienne.bechtel@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_dev_be_developers",
+            "str.mpp_dev_developers",
+            "str.mpp_tst_auditors",
+            "str.mpp_tst_be_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_stg_auditors",
+            "str.mpp_stg_be_developers",
+            "str.mpp_stg_developers"
+        ],
+        "username": "sebastian.strippel@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "renato.guimaraes@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_stg_developers"
+        ],
+        "username": "yordan.georgiev+developer@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_devops",
+            "str.mpp_tst_devops",
+            "str.mpp_stg_devops"
+        ],
+        "username": "yordan.georgiev@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_cicd_backend",
+            "str.mpp_dev_devops",
+            "str.mpp_dev_infra_admins",
+            "str.mpp_tst_cicd_backend",
+            "str.mpp_tst_devops",
+            "str.mpp_tst_infra_admins",
+            "str.mpp_stg_cicd_backend",
+            "str.mpp_stg_devops",
+            "str.mpp_stg_infra_admins"
+        ],
+        "username": "sebastian.nyberg@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "annabel.schulz@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_cicd_ui",
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_cicd_ui",
+            "str.mpp_tst_developers",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_cicd_ui",
+            "str.mpp_stg_developers",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "jarvis.luong@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_developers",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "pekka.vesala@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_developers",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "heidi.kokkinen@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_developers",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "antti.valkonen@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_tst_auditors",
+            "str.mpp_stg_auditors"
+        ],
+        "username": "mohan.sha@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_dev_developers",
+            "str.mpp_dev_fe_developers",
+            "str.mpp_tst_auditors",
+            "str.mpp_tst_developers",
+            "str.mpp_tst_fe_developers",
+            "str.mpp_stg_auditors",
+            "str.mpp_stg_developers",
+            "str.mpp_stg_fe_developers"
+        ],
+        "username": "valentyna.abakumova@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "clanger@mut-group.com"
+    },
+    {
+        "groups": [],
+        "username": "marco.albrecht@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_tst_auditors",
+            "str.mpp_stg_auditors"
+        ],
+        "username": "jari.honkonen@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "joerg.ramsauer@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "mike.dorrmann@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_dev_infra_admins",
+            "str.mpp_tst_auditors",
+            "str.mpp_tst_infra_admins",
+            "str.mpp_stg_auditors",
+            "str.mpp_stg_infra_admins"
+        ],
+        "username": "d.schemmann@tec5.com"
+    },
+    {
+        "groups": [],
+        "username": "dominik.rabus@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "patrick.dorrmann@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "csilla.burjan@ilmatarbrain.com"
+    },
+    {
+        "groups": [],
+        "username": "hailam.vu@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_auditors",
+            "str.mpp_dev_infra_admins",
+            "str.mpp_tst_auditors",
+            "str.mpp_tst_infra_admins",
+            "str.mpp_stg_auditors",
+            "str.mpp_stg_infra_admins"
+        ],
+        "username": "m.klinger@tec5.com"
+    },
+    {
+        "groups": [],
+        "username": "stefan.schwarzfischer@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_devops",
+            "str.mpp_tst_devops",
+            "str.mpp_stg_devops"
+        ],
+        "username": "yordan.georgiev+devops@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_developers",
+            "str.mpp_tst_developers",
+            "str.mpp_stg_developers"
+        ],
+        "username": "renato.guimaraes+developer@ilmatarbrain.com"
+    },
+    {
+        "groups": [
+            "str.mpp_dev_devops",
+            "str.mpp_tst_devops",
+            "str.mpp_stg_devops"
+        ],
+        "username": "renato.guimaraes+devops@ilmatarbrain.com"
+    }
+]

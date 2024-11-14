@@ -1,0 +1,24 @@
+[
+    {
+        "username": "uliana.burdina@ilmatarbrain.com",
+        "groups": [
+            "csi_sms_dev_developers",
+            "csi_sms_dev_data_scientists"
+        ]
+    },
+    {
+        "username": "jukka.pippuri@ilmatarbrain.com",
+        "groups": [
+            "csi_sms_dev_developers",
+            "csi_sms_tst_developers"
+        ]
+    },
+    {
+        "username": "yordan.georgiev@ilmatarbrain.com",
+        "groups": [
+            "csi_sms_dev_developers",
+            "csi_sms_tst_developers",
+            "csi_sms_prd_developers"
+        ]
+    }
+]

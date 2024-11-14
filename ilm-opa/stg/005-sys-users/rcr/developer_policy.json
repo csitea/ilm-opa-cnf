@@ -1,0 +1,155 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": [
+          "ec2:*",
+          "dynamodb:*",
+          "logs:*",
+          "rds:*",
+          "sns:*",
+          "lambda:*",
+          "cloudwatch:*",
+          "elasticloadbalancing:*",
+          "autoscaling:*",
+          "iam:CreateServiceLinkedRole",
+          "application-autoscaling:*",
+          "rds-db:connect",
+          "ses:*",
+          "cloudfront:*",
+          "kms:List*",
+          "kms:Get*",
+          "kms:Describe*",
+          "secretsmanager:List*",
+          "secretsmanager:Describe*"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+           "s3:*"
+        ],
+        "Effect": "Deny",
+        "Resource": [
+          "arn:aws:s3:::ilm-opa-tst-migration",
+          "arn:aws:s3:::ilm-opa-tst-migration/*"
+        ]
+      },
+      {
+        "Action": [
+           "s3:*"
+        ],
+        "Effect": "Allow",
+        "Resource": [
+          "arn:aws:s3:::*",
+          "arn:aws:s3:::*/*"
+        ]
+      },
+      {
+        "Action": [
+          "ec2:Delete*",
+          "dynamodb:Delete*",
+          "logs:Delete*",
+          "rds:Delete*",
+          "s3:DeleteBucket*",
+          "s3:DeleteAccessPoint*",
+          "sns:Delete*",
+          "lambda:Delete*",
+          "cloudwatch:Delete*",
+          "elasticloadbalancing:Delete*",
+          "autoscaling:Delete*",
+          "iam:CreateServiceLinkedRole",
+          "application-autoscaling:Delete*",
+          "ses:Delete*",
+          "cloudfront:Delete*",
+          "route53:Delete*"
+        ],
+        "Effect": "Deny",
+        "Resource": "*"
+      },
+      {
+          "Effect": "Allow",
+          "Action": [
+              "secretsmanager:Describe*",
+              "secretsmanager:Get*",
+              "secretsmanager:List*"
+          ],
+          "Resource": [
+              "arn:aws:secretsmanager:${region}:${rcr_account_id}:secret:*"
+          ]
+      },
+      {
+        "Effect": "Allow",
+        "Action": [
+          "eks:Describe*",
+          "eks:ListClusters",
+          "eks:ListTagsForResource"
+        ],
+        "Resource": [
+            "*"
+        ]
+      },
+      {
+          "Effect": "Allow",
+          "Action": [
+              "ecr:GetAuthorizationToken"
+          ],
+          "Resource": "*"
+      },
+      {
+          "Effect": "Allow",
+          "Action": [
+              "ecr:GetAuthorizationToken",
+              "ecr:BatchCheckLayerAvailability",
+              "ecr:BatchGetImage",
+              "ecr:CompleteLayerUpload",
+              "ecr:DescribeImages",
+              "ecr:DescribeRepositories",
+              "ecr:GetDownloadUrlForLayer",
+              "ecr:GetRepositoryPolicy",
+              "ecr:InitiateLayerUpload",
+              "ecr:ListImages",
+              "ecr:PutImage",
+              "ecr:UploadLayerPart"
+           ],
+          "Resource": [
+              "arn:aws:ecr:eu-west-1:036749602915:repository/*"
+          ]
+      },
+      {
+          "Effect": "Allow",
+          "Action": [
+                "geo:CreateMap"
+              , "geo:CreatePlaceIndex"
+              , "geo:DeleteGeofenceCollection"
+              , "geo:DeleteMap"
+              , "geo:DeletePlaceIndex"
+              , "geo:DescribeGeofenceCollection"
+              , "geo:DescribeMap"
+              , "geo:DescribePlaceIndex"
+              , "geo:GetGeofence"
+              , "geo:GetMapGlyphs"
+              , "geo:GetMapSprites"
+              , "geo:GetMapStyleDescriptor"
+              , "geo:GetMapTile"
+              , "geo:ListGeofenceCollections"
+              , "geo:ListGeofences"
+              , "geo:ListMaps"
+              , "geo:ListPlaceIndexes"
+              , "geo:PutGeofence"
+              , "geo:SearchPlaceIndexForPosition"
+              , "geo:SearchPlaceIndexForSuggestions"
+              , "geo:SearchPlaceIndexForText"
+              , "geo:UpdateGeofenceCollection"
+              , "geo:UpdateMap"
+              , "geo:UpdatePlaceIndex"
+              , "geo:TagResource"
+          ],
+          "Resource": [
+             "arn:aws:geo:${region}:${rcr_account_id}:*",
+             "arn:aws:geo:${region}:${rcr_account_id}:*/*"
+          ]
+      }
+  ]
+}

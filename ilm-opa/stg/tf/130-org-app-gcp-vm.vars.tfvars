@@ -1,0 +1,20 @@
+
+
+org                                                = "str"
+app                                                = "mmp"
+env                                                = "tst"
+gcp_region                                         = "europe-north1"
+gcp_project                                        = "ilm-opa-tst"
+gcp_zone                                           = "europe-north1-a"
+bucket_name                                        = "ilm-opa-tst-tf-state"
+wpb_fqdn                                           = "tst.opa.ilmatarbrain.com"
+google_compute_disk_type                           = "pd-ssd"
+google_compute_disk_size                           = "20"
+google_compute_instance_machine_type               = "e2-standard-2"
+google_compute_instance_machine_image              = "debian-cloud/debian-12"
+google_compute_boot_disk_size                      = "30"
+fqn_host_name                                      = "tst.opa.ilmatarbrain.com"
+host_name                                          = "wpb"
+box_domain_email                                   = "sys+ilm-opa-tst@ilmatarbrain.com"
+use_staging_ssl                                    = false
+gcp_vm_name                                        = "ilm-opa-tst-wpb-vm"

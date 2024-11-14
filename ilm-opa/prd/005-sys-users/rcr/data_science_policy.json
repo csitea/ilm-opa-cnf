@@ -1,0 +1,53 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": [
+          "ec2:*",
+          "dynamodb:*",
+          "logs:*",
+          "rds:*",
+          "s3:*",
+          "sns:*",
+          "lambda:*",
+          "cloudwatch:*",
+          "elasticloadbalancing:*",
+          "autoscaling:*",
+          "iam:CreateServiceLinkedRole",
+          "iam:List*",
+          "iam:CreateRole",
+          "iam:CreatePolicy",
+          "iam:AttachRolePolicy",
+          "iam:PassRole",
+          "application-autoscaling:*",
+          "rds-db:connect",
+          "sagemaker:*",
+          "kms:ListAliases",
+          "eks:Describe*"
+  
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "ec2:Delete*",
+          "dynamodb:Delete*",
+          "logs:Delete*",
+          "rds:Delete*",
+          "s3:DeleteBucket*",
+          "s3:DeleteAccessPoint*",
+          "sns:Delete*",
+          "lambda:Delete*",
+          "cloudwatch:Delete*",
+          "elasticloadbalancing:Delete*",
+          "autoscaling:Delete*",
+          "application-autoscaling:Delete*",
+          "sagemaker:Delete*",
+          "route53:Delete*"
+        ],
+        "Effect": "Deny",
+        "Resource": "*"
+      }
+   ]
+}

@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": [
+          "ec2:Describe*",
+          "dynamodb:BatchGetItem",
+          "dynamodb:Describe*",
+          "dynamodb:List*",
+          "dynamodb:GetItem",
+          "dynamodb:Query",
+          "dynamodb:Scan",
+          "logs:Describe*",
+          "rds:Describe*",
+          "rds:ListTagsForResource",
+          "s3:Get*",
+          "s3:List*",
+          "sns:GetTopicAttributes",
+          "sns:List*",
+          "lambda:Get*",
+          "lambda:List*",
+          "cloudwatch:ListMetrics",
+          "cloudwatch:GetMetricStatistics",
+          "cloudwatch:Describe*",
+          "elasticloadbalancing:Describe*",
+          "autoscaling:Describe*",
+          "application-autoscaling:Describe*"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      }
+    ]
+  }

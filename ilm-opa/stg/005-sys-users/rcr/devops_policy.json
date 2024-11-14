@@ -1,0 +1,37 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Action": [
+          "ec2:*",
+          "dynamodb:*",
+          "logs:*",
+          "rds:*",
+          "s3:*",
+          "sns:*",
+          "lambda:*",
+          "cloudwatch:*",
+          "elasticloadbalancing:*",
+          "autoscaling:*",
+          "iam:CreateServiceLinkedRole",
+          "application-autoscaling:*",
+          "support:*",
+          "rds-db:connect",
+          "eks:Describe*"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      },
+      {
+        "Action": [
+          "secretsmanager:Describe*",
+          "secretsmanager:Get*",
+          "secretsmanager:List*"
+        ],
+        "Effect": "Allow",
+        "Resource": [
+          "arn:aws:secretsmanager:${region}:${rcr_account_id}:secret:*"
+        ]
+      }
+    ]
+  }

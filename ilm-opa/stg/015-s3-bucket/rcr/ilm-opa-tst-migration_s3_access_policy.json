@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Resource":[
+          "arn:aws:s3:::csi-nba-dev-migration",
+          "arn:aws:s3:::csi-nba-dev-migration/*"
+        ],
+      "Action": [
+        "s3:*"
+      ],
+      "Condition": {
+        "Bool": {
+          "aws:MultiFactorAuthPresent": "true"
+        }
+      }
+    }
+  ]
+}
