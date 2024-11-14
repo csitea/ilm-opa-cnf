@@ -1,4 +1,4 @@
-{%- if steps["130-org-app-gcp-vm"] %}
+{%- if steps["002-manual-secrets"] %}
 
 org                                                = "{{ ORG }}"
 app                                                = "{{ APP }}"
@@ -7,7 +7,7 @@ gcp_project                                        = "{{ gcp["gcp_project"] }}"
 bucket_name                                        = "{{ gcp["state_bucket"] }}"
 
 
-{%- for key, value in steps["140-gcp-cloud-monitor"].items() %}
+{%- for key, value in steps["002-manual-secrets"].items() %}
 {%- set key_length = 50 - (key | length) %}
   {{ key }} {{ "=" | indent( key_length, True) }} {{ value | tojson}}
 {%- endfor %}

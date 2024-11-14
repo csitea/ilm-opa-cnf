@@ -1,4 +1,4 @@
-{%- if steps["131-gcp-vm-www-data-setup"] %}
+{%- if steps["001-enable-gcp-services"] %}
 
 org                                                = "{{ ORG }}"
 app                                                = "{{ APP }}"
@@ -9,7 +9,7 @@ gcp_zone                                           = "{{ gcp["gcp_zone"] }}"
 
 
 
-{%- for key, value in steps["131-gcp-vm-www-data-setup"].items() %}
+{%- for key, value in steps["001-enable-gcp-services"].items() %}
 {%- set key_length = 50 - (key | length) %}
 {%- if key == "AWS_PROFILE" %}
 aws_profile {{ "=" | indent( 43, True) }} {{ value | tojson}}
